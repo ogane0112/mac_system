@@ -1,0 +1,42 @@
+/* 全体の設定 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  /* フレックスボックスのコンテナ */
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* セクションごとにマージンと幅を設定 */
+  #waitingOrders, #completedOrders {
+    margin-bottom: 40px;
+    flex: 1;  /* 均等に幅を確保 */
+  }
+  
+  /* セクションのタイトル */
+  #waitingOrders h2, #completedOrders h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* 注文の情報 */
+  div[id=waitingOrders] > div, div[id=completedOrders] > div {
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  /* 状態によって色を変える（オプション） */
+  div[id=waitingOrders] > div {
+    background-color: #f9f9f9;
+  }
+  
+  div[id=completedOrders] > div {
+    background-color: #e6f4e6;
+  }
+  
