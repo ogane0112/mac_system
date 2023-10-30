@@ -1,7 +1,9 @@
 # mac_system
 学祭で使用するためのマックの注文システムのようなものを実装してみました.  
 フロントエンド側の処理とスプレットシートに書き込む処理はGASで実装しています。  
-なのでコピペするだけでは動作しないです。  
+なのでコピペするだけでは動作しないです。
+# システムの説明をする時に使用した資料
+https://docs.google.com/presentation/d/e/2PACX-1vRzXtbTyDKgN1jacXFj1DqP9dqD81IRALKSFNjPScYyBXLsg8dMe-5LTyyeJCkYhNeuDdGykfKR8UvS/pub?start=false&loop=false&delayms=3000
 # システムの構造図
 ![image](https://github.com/ogane0112/mac_system/assets/120627734/c399527e-bc43-44d2-abe8-17ed2468611e)  
 ***システムの簡単な構成図です！***   
